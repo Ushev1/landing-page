@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     width: 100%;
+    padding: 0 100px;
  }
 
  /* Header section styling */
@@ -25,7 +26,8 @@ a {
 .header {
     display: flex;
     flex-direction: column;
-    padding: 0 16px;
+    padding: 0 100px;
+    margin-bottom: 24px;
 }
 
 .top-links {
@@ -84,4 +86,109 @@ input {
     height: 200px;
     background-color: rgba(152, 163, 176, 0.5);
 
+}
+
+/* Styling of the main element */
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.random-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+    gap: 48px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.box-box {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    display: flex;
+}
+
+.text {
+    width: 158px;
+    margin-top: 24px;
+    padding: 5px;
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    margin-bottom: 24px;
+}
+
+.quote-container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.author {
+    color: black;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.action-time {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    
+}
+
+.action-time-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    background-color: #3882F6;
+}
+
+.sign-up {
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
 }
