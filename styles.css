@@ -1,6 +1,10 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    width: 100%;
  }
+
+ /* Header section styling */
 
 header, footer {
     background-color: #1F2937;
@@ -33,4 +37,51 @@ a {
 .right-links {
     display: flex;
     gap: 20px;
+}
+
+.header-floor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.call-to-action {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 25%;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+input {
+    background-color: #3882F6;
+    width: 75px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 200px;
+    background-color: rgba(152, 163, 176, 0.5);
+
 }
