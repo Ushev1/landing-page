@@ -28,6 +28,7 @@ a {
     display: flex;
     flex-direction: column;
     margin-bottom: 24px;
+    padding: 0 100px;
 }
 
 .top-links {
@@ -61,6 +62,7 @@ h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0;
 }
 
 p {
@@ -83,7 +85,7 @@ input {
     justify-content: center;
     align-items: center;
     width: 25%;
-    height: 200px;
+    height: 250px;
     background-color: rgba(152, 163, 176, 0.5);
 
 }
@@ -93,6 +95,7 @@ input {
 main {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .random-info {
@@ -100,6 +103,9 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: 24px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 .main-container {
@@ -138,30 +144,33 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-}
-
-.action-time {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #E5E7EB;
 }
 
 .quote {
-    height: 300px;
+    height: 400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .quote-container {
-    width: 30%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+h3 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
 }
 
 .author {
@@ -171,21 +180,38 @@ main {
 }
 
 .action-time {
-    height: 300px;
+    height: 400px;
+    width: 60%;
+    margin-bottom: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 48px;
-     background-color: #3882F6;
-    
+    border-radius: 20px;    
+}
+
+.atm {
+    height: 100px;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 24px;
+    border-radius: 24px;
+    width: 80%;
 }
 
 .action-time-one {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 5px;
     background-color: #3882F6;
+}
+
+.paragraph, h4 {
+    margin: 0;
+    color: #F9FAF8;
 }
 
 .sign-up {
@@ -194,5 +220,12 @@ main {
 }
 
 /* Styling of the footer section */
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
